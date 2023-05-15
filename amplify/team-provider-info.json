@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-scuconnect-dev-214144-authRole",
+      "UnauthRoleArn": "arn:aws:iam::207659423582:role/amplify-scuconnect-dev-214144-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::207659423582:role/amplify-scuconnect-dev-214144-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-scuconnect-dev-214144-deployment",
+      "UnauthRoleName": "amplify-scuconnect-dev-214144-unauthRole",
+      "StackName": "amplify-scuconnect-dev-214144",
+      "StackId": "arn:aws:cloudformation:us-west-2:207659423582:stack/amplify-scuconnect-dev-214144/ccd3fa70-f2da-11ed-898e-0aded4a8b963",
+      "AmplifyAppId": "d2yf00hodxs51z",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-scuconnect-dev-214144-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "scuconnect": {}
+      },
+      "function": {
+        "scuconnectPostConfirmation": {
+          "deploymentBucketName": "amplify-scuconnect-dev-214144-deployment",
+          "s3Key": "amplify-builds/scuconnectPostConfirmation-4653336e344278754733-build.zip"
+        }
+      }
+    }
+  }
+}
